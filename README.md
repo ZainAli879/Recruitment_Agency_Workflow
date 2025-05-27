@@ -1,31 +1,31 @@
-# 📁 Recruitment Agency Workflow (LangGraph)
+# Recruitment Agency Workflow (LangGraph)
 
 Welcome!  
 This project is an **automated recruitment workflow** designed to streamline how job applications are processed and routed using **Large Language Models (LLMs)** and **graph-based logic**.
 
 ---
 
-## 🚀 What Does This Do?
+##  What Does This Do?
 
 This workflow automatically processes job applications by:
 
-- ✅ **Categorizing candidates** as:
+-  **Categorizing candidates** as:
   - Entry-level
   - Mid-level
   - Senior-level
 
-- ✅ **Evaluating** if their skills match the job requirements.
+-  **Evaluating** if their skills match the job requirements.
 
-- ✅ **Making decisions based on the evaluation**:
-  - ✔️ If the candidate is a **good fit**, schedules an **HR interview**.
-  - 📤 If the candidate is **senior** but doesn’t fully match, escalates to a **recruiter**.
-  - ❌ If the candidate is **entry or mid-level** and doesn’t match, sends a **rejection**.
+-  **Making decisions based on the evaluation**:
+  -  If the candidate is a **good fit**, schedules an **HR interview**.
+  -  If the candidate is **senior** but doesn’t fully match, escalates to a **recruiter**.
+  -  If the candidate is **entry or mid-level** and doesn’t match, sends a **rejection**.
 
 All handled programmatically using **LangGraph** — enabling **clear**, **modular**, and **dynamic** workflows.
 
 ---
 
-## 💡 Why Use This?
+##  Why Use This?
 
 Recruitment often involves:
 - Repetitive tasks
@@ -75,7 +75,7 @@ export OPENAI_API_KEY=your_api_key_here
 
 ---
 
-## ✏️ Customize Inputs
+##  Customize Inputs
 
 Update `Recruitment_Agency_Workflow.ipynb` with your:
 - Job descriptions
@@ -130,4 +130,4 @@ Licensed under the **MIT License**.
 ---
 
 If you have questions or want to discuss improvements, open an issue in the repo.  
-**Happy automating!** 🚀
+**Happy automating!** 
